@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Avançada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora Avançada</h2>
+        <label for="calcType">Selecione o tipo de cálculo:</label>
+        <select id="calcType">
+            <option value="imc">IMC</option>
+            <option value="velocity">Velocidade</option>
+            <option value="temperature">Temperatura</option>
+            <option value="time">Tempo</option>
+            <option value="volume">Volume</option>
+            <option value="area">Área</option>
+            <option value="data">Dados</option>
+        </select>
+        <div id="calculatorInputs"></div>
+        <button id="calculateButton">Calcular</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
